@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.main-container{
+    min-height: 100vh;
+    /* background-image: url('https://res.cloudinary.com/ddc7e5e7s/image/upload/v1735102490/DALL_E_2024-12-25_10.24.06_-_A_dynamic_and_visually_appealing_illustration_for_a_GitHub-themed_profile_search_project._The_background_features_a_light_and_airy_design_with_interco_inlgin.webp');
+    background-size: cover; */
+    background-color: #dfe1e7;
+    /* display: flex;
+    flex-direction: column; */
+}
+
+nav{
+    background-color: #cbd0d6;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 60px;
+}
+
+.git-book-image{
+    height: 180px;
+    width: 180px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+
+h1{
+    font-family: "Roboto";
+    color: #ffffff;
+    font-size: 44px;
+    margin-left: 40px;
+}
+
+
+.main{
+    background-color: #dfe1e7;
+    /* min-height: 88vh; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+}
+
+
+.search-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* padding-top: 40px; */
+    /* height: 600px; */
+    text-align: center;
+    margin-bottom: 20px;
+    gap: 10px;
+}
+
+.search-container h1{
+    color: #615b5b;
+}
+
+.line{
+    border: 1px solid #cbd0d6;
+    width: 100%;
+}
+
+.search-input{
+    height: 50px;
+    padding: 10px;
+    width: 100%;
+    background-color: transparent;
+    font-family: 'Roboto';
+    /* color: #ffffff; */
+    border: 3px solid #cacacd;
+    border-radius: 10px;
+    font-weight: bold;
+    outline: none;
+}
+
+.spinner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
+
+
+.profile-card-container{
+    background-color: #ffffff;
+    border-radius: 20px;
+    padding: 20px;
+    min-height: 200px;
+    width: 620px;
+    box-shadow: 1px 2px 1px 2px #cacacd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+}
+
+.profile-image{
+    border-radius: 100%;
+    height: 120px;
+}
+
+.profile-name{
+    color: #615b5b;
+    font-family: "Roboto";
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0px;
+    padding: 0px;
+    margin-bottom: 8px;
+}
+
+
+.list-container-profile{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin: 0px;
+    padding: 0px;
+    margin-top: 8px;   
+}
+
+.details-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.item-list-container{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.profile-description
+{
+    color: #615b5b;
+    font-family: "Roboto";
+    font-weight: 500;
+}
+
+.error-image{
+    height: 270px;
+    width: 300;
+    border-radius: 10px;
+}
+
+
+.profile{
+    font-family: "Roboto";
+
+}
